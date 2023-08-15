@@ -33,8 +33,8 @@ div:nth-child(6)
 
 5. What is the code you use to keep the blue box within the purple?
 ```
-having the blue box div within the purple box div (<div> <div> </div> </div>)
-& using 100% instead of specific px values for width and height for blue box div
+having the blue box div within the purple box div for its position to be in the purple div (<div> <div> </div> </div>)
+& using 100% instead of specific px values for width and height for blue box div to be smaller than the purple div
 (.child {
         border: mediumblue 8px solid;
         width: 100%;
